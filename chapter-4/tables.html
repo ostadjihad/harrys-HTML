@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables-html</title>
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0;
+          font-size: 1em;
+          font-family: 'Arial', sans-serif;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+      
+        table thead {
+          background-color: #009879;
+          color: white;
+        }
+      
+        table th, table td {
+          padding: 12px 15px;
+          text-align: left;
+          border-bottom: 1px solid #dddddd;
+          border: 2px solid black;
+        }
+      
+        table tr:nth-child(even) {
+          background-color: #f3f3f3;
+        }
+      
+        table tr:hover {
+          background-color: #f1f1f1;
+          cursor: pointer;
+        }
+      
+        table th {
+          background-color: #009879;
+          color: #ffffff;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+        }
+      
+        table td {
+          border-right: 1px solid #dddddd;
+        }
+      
+        table td:last-child {
+          border-right: none;
+        }
+      </style>
+</head>
+<body>
+    <h1 align="center">
+        Tables in html
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>sallery</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jihad</td>
+                <td>Web Developer</td>
+                <td>$7000</td>
+            </tr>
+            <tr>
+                <td>Jahid</td>
+                <td>Video Editor</td>
+                <td>$8000</td>
+            </tr>
+            <tr>
+                <td>Tanvir</td>
+                <td>Ethical Hacker</td>
+                <td>$10000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Thanks</td>
+            </tr>
+            <tr>
+                <td>Thank</td>
+                <td colspan="2">You</td>
+            </tr>
+            <tr>
+                <td>Thank</td>
+                <td colspan="3">You</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
